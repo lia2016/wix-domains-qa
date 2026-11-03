@@ -1,0 +1,211 @@
+{
+    "suggestions": [
+        {
+            "domain": "liakitchen.com",
+            "premium": false
+        },
+        {
+            "domain": "liaviews.com",
+            "premium": false
+        },
+        {
+            "domain": "lia.services",
+            "premium": false
+        },
+        {
+            "domain": "lia.church",
+            "premium": false
+        },
+        {
+            "domain": "lia.photography",
+            "premium": false
+        },
+        {
+            "domain": "lia.events",
+            "premium": false
+        },
+        {
+            "domain": "lia.coach",
+            "premium": false
+        },
+        {
+            "domain": "lia.photo",
+            "premium": false
+        },
+        {
+            "domain": "liaventures.com",
+            "premium": false
+        },
+        {
+            "domain": "liagardens.com",
+            "premium": false
+        },
+        {
+            "domain": "liarentals.com",
+            "premium": false
+        },
+        {
+            "domain": "liamonarch.com",
+            "premium": false
+        },
+        {
+            "domain": "liasilk.com",
+            "premium": false
+        },
+        {
+            "domain": "liawave.com",
+            "premium": false
+        },
+        {
+            "domain": "liahalo.com",
+            "premium": false
+        },
+        {
+            "domain": "liarhythm.com",
+            "premium": false
+        },
+        {
+            "domain": "reallia.org",
+            "premium": false
+        },
+        {
+            "domain": "liacenter.org",
+            "premium": false
+        },
+        {
+            "domain": "reallia.biz",
+            "premium": false
+        },
+        {
+            "domain": "liacenter.biz",
+            "premium": false
+        },
+        {
+            "domain": "reallia.info",
+            "premium": false
+        },
+        {
+            "domain": "liacenter.info",
+            "premium": false
+        },
+        {
+            "domain": "reallia.online",
+            "premium": false
+        },
+        {
+            "domain": "liacenter.online",
+            "premium": false
+        },
+        {
+            "domain": "onelia.org",
+            "premium": false
+        },
+        {
+            "domain": "liacompany.org",
+            "premium": false
+        },
+        {
+            "domain": "liacenter.store",
+            "premium": false
+        },
+        {
+            "domain": "reallia.store",
+            "premium": false
+        },
+        {
+            "domain": "onelia.biz",
+            "premium": false
+        },
+        {
+            "domain": "liacompany.biz",
+            "premium": false
+        },
+        {
+            "domain": "onelia.info",
+            "premium": false
+        },
+        {
+            "domain": "liacompany.info",
+            "premium": false
+        },
+        {
+            "domain": "liacompany.online",
+            "premium": false
+        },
+        {
+            "domain": "mylia.org",
+            "premium": false
+        },
+        {
+            "domain": "liasolutions.org",
+            "premium": false
+        },
+        {
+            "domain": "onelia.store",
+            "premium": false
+        },
+        {
+            "domain": "liacompany.store",
+            "premium": false
+        },
+        {
+            "domain": "mylia.biz",
+            "premium": false
+        },
+        {
+            "domain": "liasolutions.biz",
+            "premium": false
+        },
+        {
+            "domain": "mylia.online",
+            "premium": false
+        },
+        {
+            "domain": "buylia.org",
+            "premium": false
+        },
+        {
+            "domain": "liashop.org",
+            "premium": false
+        },
+        {
+            "domain": "buylia.biz",
+            "premium": false
+        },
+        {
+            "domain": "liashop.biz",
+            "premium": false
+        },
+        {
+            "domain": "buylia.info",
+            "premium": false
+        },
+        {
+            "domain": "liashop.info",
+            "premium": false
+        },
+        {
+            "domain": "buylia.online",
+            "premium": false
+        },
+        {
+            "domain": "liastudio.org",
+            "premium": false
+        },
+        {
+            "domain": "buylia.store",
+            "premium": false
+        },
+        {
+            "domain": "weblia.biz",
+            "premium": false
+        }
+    ],
+    "pagingMetadata": {
+        "count": 50,
+        "cursors": {
+            "next": "eyJxdWVyeSI6ImxpYS5jb20iLCJzdWdnZXN0aW9ucyI6WyJsaWFraXRjaGVuLmNvbSIsImxpYXZpZXdzLmNvbSIsImxpYS5zZXJ2aWNlcyIsImxpYS5jaHVyY2giLCJsaWEucGhvdG9ncmFwaHkiLCJsaWEuZXZlbnRzIiwibGlhLmNvYWNoIiwibGlhLnBob3RvIiwibGlhdmVudHVyZXMuY29tIiwibGlhZ2FyZGVucy5jb20iLCJsaWFyZW50YWxzLmNvbSIsImxpYW1vbmFyY2guY29tIiwibGlhc2lsay5jb20iLCJsaWF3YXZlLmNvbSIsImxpYWhhbG8uY29tIiwibGlhcmh5dGhtLmNvbSIsInJlYWxsaWEub3JnIiwibGlhY2VudGVyLm9yZyIsInJlYWxsaWEuYml6IiwibGlhY2VudGVyLmJpeiIsInJlYWxsaWEuaW5mbyIsImxpYWNlbnRlci5pbmZvIiwicmVhbGxpYS5vbmxpbmUiLCJsaWFjZW50ZXIub25saW5lIiwib25lbGlhLm9yZyIsImxpYWNvbXBhbnkub3JnIiwibGlhY2VudGVyLnN0b3JlIiwicmVhbGxpYS5zdG9yZSIsIm9uZWxpYS5iaXoiLCJsaWFjb21wYW55LmJpeiIsIm9uZWxpYS5pbmZvIiwibGlhY29tcGFueS5pbmZvIiwibGlhY29tcGFueS5vbmxpbmUiLCJteWxpYS5vcmciLCJsaWFzb2x1dGlvbnMub3JnIiwib25lbGlhLnN0b3JlIiwibGlhY29tcGFueS5zdG9yZSIsIm15bGlhLmJpeiIsImxpYXNvbHV0aW9ucy5iaXoiLCJteWxpYS5vbmxpbmUiLCJidXlsaWEub3JnIiwibGlhc2hvcC5vcmciLCJidXlsaWEuYml6IiwibGlhc2hvcC5iaXoiLCJidXlsaWEuaW5mbyIsImxpYXNob3AuaW5mbyIsImJ1eWxpYS5vbmxpbmUiLCJsaWFzdHVkaW8ub3JnIiwiYnV5bGlhLnN0b3JlIiwid2VibGlhLmJpeiJdLCJwcmV2U3VnZ2VzdGlvbnMiOltdLCJwZW5kaW5nIjpbeyJkb21haW4iOiJsaWEuc3RvcmUiLCJwcmVtaXVtIjp0cnVlLCJlbmdpbmUiOiJXaXhPdGhlckd0bGQifSx7ImRvbWFpbiI6ImxpYS5iaXoiLCJwcmVtaXVtIjp0cnVlLCJlbmdpbmUiOiJXaXhQcmVtaXVtIn0seyJkb21haW4iOiJsaWFzdHVkaW8uYml6IiwicHJlbWl1bSI6ZmFsc2UsImVuZ2luZSI6IlZlbmRvckRldGVybWluaXN0aWMifSx7ImRvbWFpbiI6IndlYmxpYS5pbmZvIiwicHJlbWl1bSI6ZmFsc2UsImVuZ2luZSI6IlZlbmRvckRldGVybWluaXN0aWMifSx7ImRvbWFpbiI6ImxpYXN0dWRpby5pbmZvIiwicHJlbWl1bSI6ZmFsc2UsImVuZ2luZSI6IlZlbmRvckRldGVybWluaXN0aWMifSx7ImRvbWFpbiI6IndlYmxpYS5vbmxpbmUiLCJwcmVtaXVtIjpmYWxzZSwiZW5naW5lIjoiVmVuZG9yRGV0ZXJtaW5pc3RpYyJ9LHsiZG9tYWluIjoibGlhc3R1ZGlvLm9ubGluZSIsInByZW1pdW0iOmZhbHNlLCJlbmdpbmUiOiJWZW5kb3JEZXRlcm1pbmlzdGljIn0seyJkb21haW4iOiJyZWFsbGlhLmNvIiwicHJlbWl1bSI6ZmFsc2UsImVuZ2luZSI6IlZlbmRvckRldGVybWluaXN0aWMifV0sInNob3duQ291bnQiOjUwfQ=="
+        },
+        "hasNext": true
+    }
+}

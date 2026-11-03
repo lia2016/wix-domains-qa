@@ -1,0 +1,34 @@
+{
+  "info": {
+    "id": "lia.co.il",
+    "domainInfo": {
+      "name": "lia.co.il",
+      "created": "2007-04-19",
+      "expires": "2027-04-19",
+      "nameservers": [
+        "kurt.ns.cloudflare.com",
+        "virginia.ns.cloudflare.com"
+      ],
+      "status": [
+        {
+          "code": "Transfer Locked"
+        }
+      ]
+    },
+    "registrant": {
+      "email": "[REDACTED]",
+      "redacted": false
+    },
+    "registrar": {
+      "name": "LiveDNS Ltd",
+      "url": "https://domains.livedns.co.il"
+    },
+    "tos": {
+      "text": "The data in the WHOIS database of the .il registry is provided\nby ISOC-IL for information purposes, and to assist persons in\nobtaining information about or related to a domain name\nregistration record. ISOC-IL does not guarantee its accuracy.\nBy submitting a WHOIS query, you agree that you will use this\nData only for lawful purposes and that, under no circumstances\nwill you use this Data to: (1) allow, enable, or otherwise\nsupport the transmission of mass unsolicited, commercial\nadvertising or solicitations via e-mail (spam);\nor  (2) enable high volume, automated, electronic processes that\napply to ISOC-IL (or its systems).\nISOC-IL reserves the right to modify these terms at any time.\nBy submitting this query, you agree to abide by this policy.\nRights to the data above are restricted by copyright."
+    },
+    "raw": {
+      "registry": "[REDACTED - raw ISOC-IL record contains personal names/emails; not committed]"
+    },
+    "source": "WHOIS"
+  }
+}

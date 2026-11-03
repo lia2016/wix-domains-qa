@@ -1,0 +1,13 @@
+{
+    "_request": "GET https://www.wix.com/_serverless/domains-serverless-services/v1/display-prices (lia.store results page, 2026-11-03)",
+    "displayPrices": [
+        {
+            "id": "lia.store",
+            "domain": "lia.store",
+            "price": "₪5,094.39",
+            "pricingStrategy": "REGULAR",
+            "renewalPrice": "₪5,094.39"
+        }
+    ],
+    "pricesExcludeTax": false
+}

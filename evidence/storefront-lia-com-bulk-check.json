@@ -1,0 +1,789 @@
+{
+    "results": [
+        {
+            "itemMetadata": {
+                "id": "lia.net",
+                "originalIndex": 0,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.net",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.co.il",
+                "originalIndex": 1,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.co.il",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.org",
+                "originalIndex": 2,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.org",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.co",
+                "originalIndex": 3,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.co",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.online",
+                "originalIndex": 4,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.online",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.ai",
+                "originalIndex": 5,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.ai",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.store",
+                "originalIndex": 6,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.store",
+                "available": true,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.info",
+                "originalIndex": 7,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.info",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.biz",
+                "originalIndex": 8,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.biz",
+                "available": true,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.studio",
+                "originalIndex": 9,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.studio",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.app",
+                "originalIndex": 10,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.app",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.io",
+                "originalIndex": 11,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.io",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.art",
+                "originalIndex": 12,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.art",
+                "available": false,
+                "premium": true,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.me",
+                "originalIndex": 13,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.me",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.xyz",
+                "originalIndex": 14,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.xyz",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.tech",
+                "originalIndex": 15,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.tech",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.dev",
+                "originalIndex": 16,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.dev",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.site",
+                "originalIndex": 17,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.site",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.design",
+                "originalIndex": 18,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.design",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.blog",
+                "originalIndex": 19,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.blog",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.pro",
+                "originalIndex": 20,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.pro",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.tv",
+                "originalIndex": 21,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.tv",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.club",
+                "originalIndex": 22,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.club",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.life",
+                "originalIndex": 23,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.life",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.world",
+                "originalIndex": 24,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.world",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.cc",
+                "originalIndex": 25,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.cc",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.live",
+                "originalIndex": 26,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.live",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.space",
+                "originalIndex": 27,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.space",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.agency",
+                "originalIndex": 28,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.agency",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.media",
+                "originalIndex": 29,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.media",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.fun",
+                "originalIndex": 30,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.fun",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.llc",
+                "originalIndex": 31,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.llc",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.health",
+                "originalIndex": 32,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.health",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.group",
+                "originalIndex": 33,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.group",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.services",
+                "originalIndex": 34,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.services",
+                "available": true,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.academy",
+                "originalIndex": 35,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.academy",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.digital",
+                "originalIndex": 36,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.digital",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.global",
+                "originalIndex": 37,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.global",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.solutions",
+                "originalIndex": 38,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.solutions",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.care",
+                "originalIndex": 39,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.care",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.cloud",
+                "originalIndex": 40,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.cloud",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.work",
+                "originalIndex": 41,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.work",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.church",
+                "originalIndex": 42,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.church",
+                "available": true,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.top",
+                "originalIndex": 43,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.top",
+                "available": false,
+                "premium": true,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.one",
+                "originalIndex": 44,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.one",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.fit",
+                "originalIndex": 45,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.fit",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.website",
+                "originalIndex": 46,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.website",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.love",
+                "originalIndex": 47,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.love",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.ltd",
+                "originalIndex": 48,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.ltd",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.lol",
+                "originalIndex": 49,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.lol",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.company",
+                "originalIndex": 50,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.company",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.photography",
+                "originalIndex": 51,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.photography",
+                "available": true,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.events",
+                "originalIndex": 52,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.events",
+                "available": true,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.vip",
+                "originalIndex": 53,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.vip",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.coach",
+                "originalIndex": 54,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.coach",
+                "available": true,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.games",
+                "originalIndex": 55,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.games",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.link",
+                "originalIndex": 56,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.link",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.bio",
+                "originalIndex": 57,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.bio",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.school",
+                "originalIndex": 58,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.school",
+                "available": false,
+                "premium": false,
+                "premiumType": "UNKNOWN_PREMIUM_TYPE"
+            }
+        },
+        {
+            "itemMetadata": {
+                "id": "lia.consulting",
+                "originalIndex": 59,
+                "success": true
+            },
+            "item": {
+                "domain": "lia.consulting",
+                "available": false,
+                "premium": true,
+                "premiumType": "FIRST_YEAR_AND_RENEWAL"
+            }
+        }
+    ],
+    "bulkActionMetadata": {
+        "totalSuccesses": 60,
+        "totalFailures": 0,
+        "undetailedFailures": 0
+    }
+}
