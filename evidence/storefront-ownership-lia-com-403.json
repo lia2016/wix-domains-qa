@@ -1,0 +1,10 @@
+{
+    "_request": "GET https://www.wix.com/_api/user-domains/v1/user_domains/lia.com (lia.com results page, 2026-11-03) -> HTTP 403",
+    "message": "permission denied",
+    "details": {
+        "applicationError": {
+            "code": "DOMAINS_PERMISSION_DENIED",
+            "description": "PERMISSION_DENIED: domainBelongsToDifferentUser"
+        }
+    }
+}

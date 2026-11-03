@@ -94,7 +94,10 @@ Searching `lia.store` directly shows it: Exact Match, Available, Premium, ₪5,0
   rests on the suggestions response alone (inferred).
 - Price tooltip on the list: "free for one year with any annual plan. Renews at ₪90.19". This
   matches the storefront's `.com` price, as expected from the shared price call.
-- **Get It** → plan-choice page. "Buy domain only: `<domain>` for ₪21.47/yr" shows **no renewal
+- **Get It** → plan-choice page on `manage.wix.com`. It loads the price for the one domain from
+  `GET manage.wix.com/_serverless/domains-serverless-services/v1/display-prices` (`price`,
+  `originalPrice`, `pricingStrategy`, `renewalPrice`), the same call the storefront uses for premium
+  domains ([response](evidence/plan-choice-lianova-co-display-prices.json)). "Buy domain only: `<domain>` for ₪21.47/yr" shows **no renewal
   price**, and the (!) icon next to it shows no tooltip. Not clicked further (path to checkout).
 
 ### 3. WHOIS lookup

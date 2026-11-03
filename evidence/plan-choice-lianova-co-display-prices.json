@@ -1,0 +1,14 @@
+{
+    "_request": "GET https://manage.wix.com/_serverless/domains-serverless-services/v1/display-prices (plan-choice page for lianova.co, reached from BNG 'Get It', 2026-11-03)",
+    "displayPrices": [
+        {
+            "id": "lianova.co",
+            "domain": "lianova.co",
+            "price": "₪0.00",
+            "originalPrice": "₪51.38",
+            "pricingStrategy": "FREE_FIRST_YEAR",
+            "renewalPrice": "₪168.63"
+        }
+    ],
+    "pricesExcludeTax": false
+}

@@ -20,6 +20,11 @@
 - **Exploration, WHOIS:** Claude guessed the WHOIS door uses different paths for `.com` and
   `.co.il`. Both use the same flow (`rdap-url` then `whois`); only the `parse` flag differs.
 
+- **FINDINGS F1, renewal price:** Claude wrote that "Buy domain only" renews at ₪90.19 (4.2× the
+  first-year ₪21.47). I noticed the ₪90.19 comes from the "free first year with a plan" tooltip,
+  and the price response has one `renewalPrice` per TLD with no split by purchase option. So the
+  renewal price for "domain only" is unknown, not ₪90.19.
+
 ## What I changed or threw away
 <!-- TODO(Lia) -->
 
