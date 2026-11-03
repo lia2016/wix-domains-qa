@@ -25,6 +25,18 @@ Owner: Lia. The AI drafts and suggests; Lia reviews, edits and commits every lin
 9. **Raw captures stay out of git.** `*.har` and `evidence/raw/` are ignored; commit only
    sanitized copies. Unredacted WHOIS of a real person is never committed.
 10. **AI_LOG.md.** When Lia catches an AI mistake, log it there. Real ones only.
+11. **No traces, no UI mode.** Keep `trace: 'off'`; don't suggest `--ui` or `--trace on`. Traces record
+    request headers (the API key) and cookies.
+12. **Known failures stay visible.** A test that fails because of a real finding is marked
+    `test.fail(true, 'Known issue FINDINGS.md Fx')`. Never weaken an assertion or delete a test to
+    make a run green. `retries: 0`, `workers: 1` (production endpoints).
+13. **Waiting on Wix pages.** No fixed sleeps. Check preconditions (visible, editable), then retry the
+    UI step until its outcome appears (see `typeAndSubmit` in `tests/ui/doors.ts`). Selectors:
+    `data-hook` attributes and accessible names, not CSS classes.
+14. **Results come from Lia's runs.** Tests run on Lia's Mac (the AI's environment can't reach Wix).
+    Never call a test passing without her run output.
+15. **Docs follow the code.** When tests change, update TEST_PLAN.md (automation scope, call counts),
+    README.md and this file's commands in the same commit.
 
 ## Commands
 - `npm test`: all tests
