@@ -110,7 +110,7 @@ same kind of disclosure gap as F1. Both domains are taken, so no user is affecte
 risk is the same state on an available domain.
 
 **Evidence:** [bulk check](evidence/storefront-lia-com-bulk-check.json). Captured from the
-storefront's call; the public API uses the same endpoint (to confirm in the API tests).
+storefront's call. Reproduced through the public API by `tests/api/bulk-premium.spec.ts` (known-failure test).
 
 **Severity:** S2 · **Priority:** P2
 

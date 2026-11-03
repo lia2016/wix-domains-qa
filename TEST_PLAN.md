@@ -54,7 +54,7 @@ to the result and the price shown. Flows stop before checkout.
 | R11 | A test reaches checkout | — | Guard: storefront tests abort any checkout or cart request | UI |
 
 ## What gets automated now
-**API** (`tests/api`, ~20 calls per run):
+**API** (`tests/api`, ~16 calls per run):
 - R1: taken name, random fresh name.
 - R2: suggestions with a TLD filter (`com`, no dot); every result ends in `.com`; 3–5 sampled
   results re-checked for availability.
@@ -62,11 +62,16 @@ to the result and the price shown. Flows stop before checkout.
 - R7: a few input cases (uppercase, missing TLD, unsupported TLD, 64-char label).
 - R8: missing and invalid key; bulk with 61 domains → 400.
 
-**Storefront UI** (`tests/ui`, Chromium):
-- R1/R5: search a taken name and a fresh name; the page matches the backend response.
+**Web doors** (`tests/ui`, Chromium, ~6 public API calls per run):
+- Storefront, R1/R5: type a taken and a fresh name in the `/domains` search box; the page, the
+  storefront backend response and the public API must give the same answer.
+- Storefront, R10: price cards use the currency of the price response (no currency hard-coded).
+- WHOIS, R5: a taken name shows WHOIS data as taken; a free name goes to the storefront, which
+  offers it. Public API agrees in both cases.
+- BNG, R2/R5: domains BNG offers appear on the page and the first 2 are free per the public API.
 - R11: checkout guard active in every test.
 
-**Not automated (manual only):** R3, R6, R9. They need judgment (is the price clear?) or they are
+**Not automated (manual only):** R3, R6, R9, BNG vs storefront price (R5), `.co.il` in suggested TLDs (R10, only true from Israel). They need judgment (is the price clear?) or they are
 one-time observations already backed by evidence.
 
 ## Test data

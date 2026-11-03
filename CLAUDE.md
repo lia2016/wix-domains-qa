@@ -29,4 +29,5 @@ Owner: Lia. The AI drafts and suggests; Lia reviews, edits and commits every lin
 ## Commands
 - `npm test`: all tests
 - `npm run test:api`: API tests only
+- `npm run test:ui`: web door tests only (storefront, WHOIS, BNG)
 - `npm run typecheck`: TypeScript check

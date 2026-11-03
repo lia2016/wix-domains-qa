@@ -11,6 +11,8 @@ import type { APIRequestContext, APIResponse } from '@playwright/test';
  * cap is a safety net, not exact accounting.
  */
 const MAX_CALLS = Number(process.env.MAX_API_CALLS ?? 60);
+// Absolute URL so UI tests (baseURL www.wix.com) still hit the PUBLIC API, not the storefront's copy.
+const API = 'https://www.wixapis.com';
 let callsMade = 0;
 
 export function authHeaders(): Record<string, string> {
@@ -41,7 +43,7 @@ export async function checkAvailability(
   headers: Record<string, string> = authHeaders(),
 ): Promise<APIResponse> {
   spendOneCall();
-  return request.get('/domain-search/v2/check-domain-availability', {
+  return request.get(`${API}/domain-search/v2/check-domain-availability`, {
     params: { domain },
     headers,
   });
@@ -56,13 +58,13 @@ export async function suggestDomains(
   spendOneCall();
   const params: Record<string, string | number> = { query, 'paging.limit': opts.limit ?? 10 };
   if (opts.tld) params.tlds = opts.tld;
-  return request.get('/domain-search/v2/suggest-domains', { params, headers: authHeaders() });
+  return request.get(`${API}/domain-search/v2/suggest-domains`, { params, headers: authHeaders() });
 }
 
 /** POST /domain-search/v2/bulk/domain-availabilities/check. The API accepts at most 60 domains per call. */
 export async function bulkCheck(request: APIRequestContext, domains: string[]): Promise<APIResponse> {
   spendOneCall();
-  return request.post('/domain-search/v2/bulk/domain-availabilities/check', {
+  return request.post(`${API}/domain-search/v2/bulk/domain-availabilities/check`, {
     data: { domains },
     headers: authHeaders(),
   });
