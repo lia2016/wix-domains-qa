@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# secrets: real values live only in .env
+.env
+.env.*
+!.env.example
+
+# Playwright output (reports/traces can contain request data)
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# raw captures contain cookies / personal data; commit only sanitized copies
+*.har
+evidence/raw/
+
+.DS_Store
