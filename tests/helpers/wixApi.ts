@@ -46,3 +46,29 @@ export async function checkAvailability(
     headers,
   });
 }
+
+/** GET /domain-search/v2/suggest-domains. `tld` is passed WITHOUT a dot (`com`), as the API expects. */
+export async function suggestDomains(
+  request: APIRequestContext,
+  query: string,
+  opts: { tld?: string; limit?: number } = {},
+): Promise<APIResponse> {
+  spendOneCall();
+  const params: Record<string, string | number> = { query, 'paging.limit': opts.limit ?? 10 };
+  if (opts.tld) params.tlds = opts.tld;
+  return request.get('/domain-search/v2/suggest-domains', { params, headers: authHeaders() });
+}
+
+/** POST /domain-search/v2/bulk/domain-availabilities/check. The API accepts at most 60 domains per call. */
+export async function bulkCheck(request: APIRequestContext, domains: string[]): Promise<APIResponse> {
+  spendOneCall();
+  return request.post('/domain-search/v2/bulk/domain-availabilities/check', {
+    data: { domains },
+    headers: authHeaders(),
+  });
+}
+
+/** A label that is very unlikely to be registered: availability is point-in-time, so never rely on a fixed "free" name. */
+export function freshLabel(): string {
+  return `qa${Date.now()}${Math.random().toString(36).slice(2, 6)}`;
+}

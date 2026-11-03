@@ -1,4 +1,4 @@
-import { defineConfig } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test';
 
 // Load WIX_API_KEY / WIX_ACCOUNT_ID from .env (git-ignored).
 // Node's built-in loader (Node >= 20.12), so no dotenv dependency.
@@ -25,6 +25,17 @@ export default defineConfig({
       testDir: './tests/api',
       // No trace for API tests: a trace would record the Authorization header.
       use: { baseURL: 'https://www.wixapis.com', trace: 'off' },
+    },
+    {
+      name: 'storefront',
+      testDir: './tests/ui',
+      use: {
+        ...devices['Desktop Chrome'],
+        baseURL: 'https://www.wix.com',
+        // Trace off here too: it would record cookies of the Wix session.
+        trace: 'off',
+        screenshot: 'only-on-failure',
+      },
     },
   ],
 });

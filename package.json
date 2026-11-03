@@ -9,6 +9,7 @@
   "scripts": {
     "test": "playwright test",
     "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=storefront",
     "typecheck": "tsc --noEmit",
     "report": "playwright show-report"
   },
