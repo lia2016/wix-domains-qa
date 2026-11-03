@@ -1,0 +1,2 @@
+{"availability":{"domain":"google.com","available":false,"premium":false,"premiumType":"UNKNOWN_PREMIUM_TYPE"}}
+HTTP 200

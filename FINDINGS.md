@@ -14,6 +14,7 @@ P1 now · P2 next sprint · P3 backlog.
 | F2 | Available premium exact-name domains never shown in search results | Observation / risk | S1 | P1 |
 | F3 | `premium: true` with `premiumType: UNKNOWN_PREMIUM_TYPE` | API contract | S2 | P2 |
 | F4 | Ownership check says "belongs to a different user" for a domain not at Wix | Observation | S3 | P2 |
+| F5 | Public API answers availability without a valid API key | API auth / contract | S3 | P2 |
 
 ---
 
@@ -128,6 +129,30 @@ monitoring that is noise, and it can hide real permission errors.
 
 **Evidence:** [403 response](evidence/storefront-ownership-lia-com-403.json),
 [RDAP lia.com](evidence/whois-rdap-lia-com.json) (registrar: Porkbun LLC).
+
+**Severity:** S3 · **Priority:** P2
+
+---
+
+## F5. Public API answers availability without a valid API key
+
+**Steps:** call `GET https://www.wixapis.com/domain-search/v2/check-domain-availability?domain=google.com`
+(1) with no `Authorization` / `wix-account-id` headers, (2) with `Authorization: invalid-key-for-test`.
+
+**Expected:** 401/403 and no data. The brief says the public API needs an account-level API key.
+
+**Actual:** both return HTTP 200 with the full answer:
+`{"availability":{"domain":"google.com","available":false,"premium":false,"premiumType":"UNKNOWN_PREMIUM_TYPE"}}`.
+Found by the automated R8 tests, confirmed with plain `curl` outside Playwright.
+
+**Why it matters:** availability itself is close to public data (WHOIS, DNS). The risk is that calls
+can't be tied to an account, so per-account rate limits and quotas don't apply and anonymous bulk
+checking is possible. It may be intended (the storefront calls the same path without a key); then
+the docs and the brief should say so. Question for the API owner.
+
+**Evidence:** [no key](evidence/api-no-auth-google-com.txt),
+[invalid key](evidence/api-invalid-key-google-com.txt), `tests/api/inputs-auth.spec.ts` (R8 tests
+marked as known failures). Only `check-domain-availability` was checked without a key.
 
 **Severity:** S3 · **Priority:** P2
 
